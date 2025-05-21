@@ -150,10 +150,10 @@ compose.desktop {
         mainClass = "org.example.project.MainKt"
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "org.example.project"
+            targetFormats(TargetFormat.Dmg, TargetFormat.Exe, TargetFormat.Deb)
+            packageName = "DragonBallApp"
             packageVersion = "1.0.0"
+            // iconFile = file("src/main/resources/icon.ico") // Opcional
         }
     }
 }
-
